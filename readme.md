@@ -1,5 +1,5 @@
-<div></div>
-  <h1 align="center"> Bem vindo!Eu sou Nicolas,prazer em te conhecer.</h1>
+<div>
+  <h1 align="left"> Bem vindo!Eu sou Nicolas prazer.</h1>
   <img src="https://github-readme-stats.vercel.app/api?username=NicolasOliveiraDS&include_all_commits=false&theme=dracula&show_icons=false"/>
 </div>
 
@@ -9,5 +9,8 @@
 </div>                    
 
 <div><br>
-  <a style="line-height:20"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"  line-height="20"></a>
+  <a><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank" ></a>
+  <a><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"></a>
 </div>
