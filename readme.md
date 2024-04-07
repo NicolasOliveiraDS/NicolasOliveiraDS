@@ -15,6 +15,8 @@
   <a><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white"></a>
 </div>
 
+![Snake animation](https://github,com/NicolasOliveiraDS/NicolasOliveiraDS/Platane/output/github-contribution-grid-snake.svg)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
