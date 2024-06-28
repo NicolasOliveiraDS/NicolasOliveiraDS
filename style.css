@@ -1,0 +1,387 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #e3e3e3;
+    height: 100vh;    
+    width: 100%;
+}
+
+
+.bom,#vantagens,#CADASTRO,.footer,.texto{
+    visibility: hidden;
+}
+
+header{
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    z-index: 2;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 2px 2px solid #fff;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:60%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    margin-left:36%;
+}
+
+i{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.logo1{
+    color: rgb(142, 80, 27);
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+    color:#685d5d;
+}
+
+a{
+    font-size: 20px;
+    color: #685d5d;
+    text-decoration: none;
+    padding: 0  20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    position: relative;
+    transition: 0.5s;
+}
+
+.container a:hover{
+    transform: scale(1.05);
+    color: rgb(142, 80, 27);
+    
+}
+
+.container a::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    width: 0%;
+    height: 2.5px;
+    background-color: rgb(142, 80, 27);
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.container a:hover::after{
+    width: 70%;
+
+}
+.BEM{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 10%;
+    padding-left: 5%;
+    height: 80%;
+    background-image: url(ab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+span{
+    color: rgb(142, 80, 27);
+    font-weight: 900;
+}
+
+.bv{
+    color: #685d5d;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+
+.subtitle{
+    color: #685d5d;
+    font-size:15px ;
+    
+}
+
+h4{
+    color: #fff;
+    font-size:15px ;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    border-left: 0px solid #000; 
+    white-space: nowrap;
+    animation: digitar 2.5s steps(40) infinite;
+}
+
+@keyframes digitar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.bottom{
+   
+    padding-top: 10px;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+}
+
+#contatos{
+    box-shadow: rgba(59, 57, 57, 0.767) 3px 3px 4px, rgb(102, 99, 99) 0px 0px 3px;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: rgb(142, 80, 27);
+    background-color: #000000;
+    backdrop-filter: blur(6px);
+    background: transparent;
+    outline: none;
+    border: #fff 1px solid;
+    height: 2.5em;
+    width: 6.5em;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    z-index: 1;
+    position: relative;
+    transition: 0.5s;
+}
+
+#contatos:hover{
+    color: #685d5d;
+    background-color: #fff;
+}
+
+#ACESSE{
+    border-radius: 1em;
+    font-family: inherit;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+
+/*1 parte*/
+
+section#vantagens{
+    padding: 30px 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#vantagens .itens-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+#vantagens .itens-container .img-itens img{
+    max-width: 420px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.393) 4px 3px 6px, rgba(0, 0, 0, 0.344) 2px 0px 6px;
+
+}
+
+#vantagens .itens-container .txt-itens #crono{
+    font-size: 3em;
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+
+.itens-container .txt-itens #crono .grama{
+    font-weight: 300;
+}
+
+/*cadastro*/
+
+section#CADASTRO{
+    background-color: #ffffff;
+    padding: 50px 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+#CADASTRO .fale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+    margin-left: 3%;
+}
+
+#CADASTRO .fale .itens-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2%;
+}
+
+#CADASTRO .fale .flc #fala{
+    font-size: 3em;
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+
+#CADASTRO .fale .flc #fala .comigo{
+    font-weight: 300;
+}
+
+.itens-button .meta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5%;
+    transition: 0.5s;
+}
+.itens-button .meta:hover{
+    background-color: #000;
+    border: #fff;
+}
+
+.itens-button .meta #instagram{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+.itens-button .meta #instagram:hover{
+    color: #fff;  
+}
+
+.itens-button .meta #instagram #insta{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+/*footer*/
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+@media screen and (max-width:1020px) {
+    #cadastro{
+        display: none;
+    }
+
+    .itens-container{
+        flex-direction: column-reverse;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #fala{
+        flex-direction: column;
+    }
+
+    .flc p{
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    } 
+
+    #crono{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    .itens-button{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .txt-itens p{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .fale{
+        flex-direction: column;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    .footer{
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+
+    .footer{
+        padding-top: 50px;
+    }
+
+}
